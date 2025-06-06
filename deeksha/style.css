@@ -1,31 +1,29 @@
-
 :root {
-  --color-background: #f8f9fb;
+  --color-background: #f5fdf6;
   --color-surface: #ffffff;
-  --color-text: #1f2937;              /* dark slate */
-  --color-text-secondary: #6b7280;    /* cool gray */
-  --color-primary: #5b21b6;           /* electric indigo */
-  --color-primary-hover: #4c1d95;
-  --color-primary-active: #3b0d85;
-  --color-secondary: #e0e7ff;
-  --color-secondary-hover: #c7d2fe;
-  --color-secondary-active: #a5b4fc;
-  --color-border: #d1d5db;
+  --color-text: #1b3a2f; /* Deep forest green */
+  --color-text-secondary: #4b635e;
+  --color-primary: #2e7d32;           /* Emerald green */
+  --color-primary-hover: #1b5e20;
+  --color-primary-active: #104d1d;
+  --color-secondary: #d0f0e0;         /* soft mint */
+  --color-secondary-hover: #bae8d0;
+  --color-secondary-active: #a2dfc2;
+  --color-border: #b2d8c5;
   --color-btn-primary-text: #ffffff;
-  --color-card-border: #d1d5db;
-  --color-card-border-inner: #d1d5db;
-  --color-error: #dc2626;
-  --color-success: #16a34a;
-  --color-warning: #d97706;
-  --color-info: #2563eb;
-  --color-focus-ring: rgba(91, 33, 182, 0.4);
-  --color-select-caret: rgba(31, 41, 55, 0.8);
+  --color-card-border: #c8e6c9;
+  --color-card-border-inner: #c8e6c9;
+  --color-error: #c62828;
+  --color-success: #2e7d32;
+  --color-warning: #f9a825;
+  --color-info: #388e3c;
+  --color-focus-ring: rgba(46, 125, 50, 0.4);
+  --color-select-caret: rgba(27, 58, 47, 0.8);
 
-  /* Also optionally adjust RGB versions if used */
-  --color-success-rgb: 22, 163, 74;
-  --color-error-rgb: 220, 38, 38;
-  --color-warning-rgb: 217, 119, 6;
-  --color-info-rgb: 37, 99, 235;
+  --color-success-rgb: 46, 125, 50;
+  --color-error-rgb: 198, 40, 40;
+  --color-warning-rgb: 249, 168, 37;
+  --color-info-rgb: 56, 142, 60;
 
   /* Typography */
   --font-family-base: "FKGroteskNeue", "Geist", "Inter", -apple-system,
