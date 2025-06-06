@@ -1,40 +1,31 @@
 
 :root {
-  /* Colors */
-  --color-background: rgba(252, 252, 249, 1);
-  --color-surface: rgba(255, 255, 253, 1);
-  --color-text: rgba(19, 52, 59, 1);
-  --color-text-secondary: rgba(98, 108, 113, 1);
-  --color-primary: rgba(33, 128, 141, 1);
-  --color-primary-hover: rgba(29, 116, 128, 1);
-  --color-primary-active: rgba(26, 104, 115, 1);
-  --color-secondary: rgba(94, 82, 64, 0.12);
-  --color-secondary-hover: rgba(94, 82, 64, 0.2);
-  --color-secondary-active: rgba(94, 82, 64, 0.25);
-  --color-border: rgba(94, 82, 64, 0.2);
-  --color-btn-primary-text: rgba(252, 252, 249, 1);
-  --color-card-border: rgba(94, 82, 64, 0.12);
-  --color-card-border-inner: rgba(94, 82, 64, 0.12);
-  --color-error: rgba(192, 21, 47, 1);
-  --color-success: rgba(33, 128, 141, 1);
-  --color-warning: rgba(168, 75, 47, 1);
-  --color-info: rgba(98, 108, 113, 1);
-  --color-focus-ring: rgba(33, 128, 141, 0.4);
-  --color-select-caret: rgba(19, 52, 59, 0.8);
+  --color-background: #f8f9fb;
+  --color-surface: #ffffff;
+  --color-text: #1f2937;              /* dark slate */
+  --color-text-secondary: #6b7280;    /* cool gray */
+  --color-primary: #5b21b6;           /* electric indigo */
+  --color-primary-hover: #4c1d95;
+  --color-primary-active: #3b0d85;
+  --color-secondary: #e0e7ff;
+  --color-secondary-hover: #c7d2fe;
+  --color-secondary-active: #a5b4fc;
+  --color-border: #d1d5db;
+  --color-btn-primary-text: #ffffff;
+  --color-card-border: #d1d5db;
+  --color-card-border-inner: #d1d5db;
+  --color-error: #dc2626;
+  --color-success: #16a34a;
+  --color-warning: #d97706;
+  --color-info: #2563eb;
+  --color-focus-ring: rgba(91, 33, 182, 0.4);
+  --color-select-caret: rgba(31, 41, 55, 0.8);
 
-  /* Common style patterns */
-  --focus-ring: 0 0 0 3px var(--color-focus-ring);
-  --focus-outline: 2px solid var(--color-primary);
-  --status-bg-opacity: 0.15;
-  --status-border-opacity: 0.25;
-  --select-caret-light: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23134252' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
-  --select-caret-dark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23f5f5f5' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
-
-  /* RGB versions for opacity control */
-  --color-success-rgb: 33, 128, 141;
-  --color-error-rgb: 192, 21, 47;
-  --color-warning-rgb: 168, 75, 47;
-  --color-info-rgb: 98, 108, 113;
+  /* Also optionally adjust RGB versions if used */
+  --color-success-rgb: 22, 163, 74;
+  --color-error-rgb: 220, 38, 38;
+  --color-warning-rgb: 217, 119, 6;
+  --color-info-rgb: 37, 99, 235;
 
   /* Typography */
   --font-family-base: "FKGroteskNeue", "Geist", "Inter", -apple-system,
