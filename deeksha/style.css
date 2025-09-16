@@ -899,6 +899,11 @@ html {
 }
 
 /* Publications */
+.card__body {
+  display: flex;
+  flex-direction: column; /* stack vertically */
+  gap: 1rem; /* spacing between items */
+}
 .publications-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -930,6 +935,16 @@ html {
   margin: 0;
   line-height: 1.5;
   text-align: justify;
+}
+/* Force publications into 1 column x multiple rows */
+#publications .publications-grid {
+  display: block;   /* stack as one column */
+}
+
+#publications .card__body {
+  display: flex;
+  flex-direction: column; /* vertical stacking */
+  gap: 1rem;
 }
 
 /* Skills section */
