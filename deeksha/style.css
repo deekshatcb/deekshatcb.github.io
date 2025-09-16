@@ -938,11 +938,11 @@ html {
 }
 /* Force publications into 1 column x multiple rows */
 #publications .publications-grid {
-  display: block;   /* stack as one column */
+  display: block !important;   /* stack as one column */
 }
 
 #publications .card__body {
-  display: flex;
+  display: flex !important;
   flex-direction: column; /* vertical stacking */
   gap: 1rem;
 }
